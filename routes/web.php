@@ -13,14 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::group([
+    'middleware'=> [],
+    'prefix' => 'admin',
+    'namespace' => 'Admin',
+    'as' => 'admin.'
+], function(){
+    Route::get('/', function () {
+        return view('admin.app.dashboard');
+    });
+
+    Route::get('/table', function () {
+        return view('admin.app.table');
+    });
+});
+
+
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('/admin', function () {
-   return view('app.dashboard');
-});
-
-Route::get('/table', function () {
-    return view('app.table');
 });

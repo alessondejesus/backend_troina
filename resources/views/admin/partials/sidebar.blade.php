@@ -7,8 +7,8 @@
   </div>
   <ul class="sidebar-menu">
     <li class="menu-header">Dashboard</li>
-    <li class="{{ request()->is('/') ? 'active' : '' }}"><a class="nav-link" href="{{ url('/') }}"><i class="fas fa-columns"></i> <span>Dashboard</span></a></li>
-    <li class="{{ request()->is('table') ? 'active' : '' }}"><a href="{{ url('table') }}"><i class="fas fa-table"></i> <span>Tables</span></a></li>
+    <li class="{{ request()->is('/admin') ? 'active' : '' }}"><a class="nav-link" href="{{ url('/admin') }}"><i class="fas fa-columns"></i> <span>Dashboard</span></a></li>
+    <li class="{{ request()->is('/admin/table') ? 'active' : '' }}"><a href="{{ url('admin/table') }}"><i class="fas fa-table"></i> <span>Tables</span></a></li>
     <li class="menu-header">Users</li>
     <li><a class="nav-link" href=""><i class="fas fa-users"></i> <span>Users</span></a></li>
   </ul>
