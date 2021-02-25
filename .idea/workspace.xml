@@ -120,6 +120,16 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ox6Lr8dDLHKlgPu3zErtdTiH3Q" />
@@ -129,6 +139,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -140,6 +151,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ba5ac28-192a-4515-9710-24782fd97f68" name="Default Changelist" comment="" />
@@ -147,11 +159,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614215845877</updated>
-      <workItem from="1614215848200" duration="327000" />
+      <workItem from="1614215848200" duration="683000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="214" width="802" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614216494022">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="555" y="214" width="802" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1614216494022" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1614216498896">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.25.1920.1055@0.25.1920.1055" timestamp="1614216498896" />
+    <state x="861" y="433" width="190" height="236" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1614216480519">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="861" y="433" width="190" height="236" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.25.1920.1055@0.25.1920.1055" timestamp="1614216480519" />
   </component>
 </project>
