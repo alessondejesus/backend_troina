@@ -2,15 +2,16 @@
 
 namespace App\Http\Livewire\Admin\User;
 
+use App\Models\User;
 use Livewire\Component;
 
 class Index extends Component
 {
-    public $message;
+    public $users;
 
     public function mount()
     {
-        $this->message = 'Olá, seja bem vindo a página de usuarios! :)';
+        $this->users = User::all();
     }
 
     public function render()

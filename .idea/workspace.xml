@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ba5ac28-192a-4515-9710-24782fd97f68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Admin/User/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Admin/User/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/admin/pages/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/admin/pages/user/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

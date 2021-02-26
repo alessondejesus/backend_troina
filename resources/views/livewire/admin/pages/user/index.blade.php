@@ -30,161 +30,58 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <table class="table table-striped dataTable no-footer" id="table-1" role="grid"
-                                           aria-describedby="table-1_info">
+
+                                    <table class="table table-striped">
                                         <thead>
-                                        <tr role="row">
-                                            <th class="text-center sorting" tabindex="0" aria-controls="table-1"
-                                                rowspan="1" colspan="1" aria-label="
-                              #
-                            : activate to sort column ascending" style="width: 61px;">
-                                                #
-                                            </th>
-                                            <th class="sorting_desc" tabindex="0" aria-controls="table-1" rowspan="1"
-                                                colspan="1" aria-label="Task Name: activate to sort column ascending"
-                                                style="width: 256px;" aria-sort="descending">Task Name
-                                            </th>
-                                            <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Progress"
-                                                style="width: 137px;">Progress
-                                            </th>
-                                            <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Members"
-                                                style="width: 338px;">Members
-                                            </th>
-                                            <th class="sorting" tabindex="0" aria-controls="table-1" rowspan="1"
-                                                colspan="1" aria-label="Due Date: activate to sort column ascending"
-                                                style="width: 163px;">Due Date
-                                            </th>
-                                            <th class="sorting" tabindex="0" aria-controls="table-1" rowspan="1"
-                                                colspan="1" aria-label="Status: activate to sort column ascending"
-                                                style="width: 193px;">Status
-                                            </th>
-                                            <th class="sorting" tabindex="0" aria-controls="table-1" rowspan="1"
-                                                colspan="1" aria-label="Action: activate to sort column ascending"
-                                                style="width: 139px;">Action
-                                            </th>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Progress</th>
+                                            <th scope="col">Members</th>
+                                            <th scope="col">Data Criação</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Ações</th>
                                         </tr>
                                         </thead>
                                         <tbody>
-
-                                        <tr role="row" class="odd">
-                                            <td class="text-center">
-                                                2
-                                            </td>
-                                            <td class="sorting_1">Redesign homepage</td>
-                                            <td class="align-middle">
-                                                <div class="progress" data-height="4" data-toggle="tooltip" title=""
-                                                     data-original-title="0%" style="height: 4px;">
-                                                    <div class="progress-bar" data-width="0" style="width: 0px;"></div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-1.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Nur Alpiana">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-3.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Hariono Yusup">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-4.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Bagus Dwi Cahya">
-                                            </td>
-                                            <td>2018-04-10</td>
-                                            <td>
-                                                <div class="badge badge-info">Todo</div>
-                                            </td>
-                                            <td><a href="#" class="btn btn-secondary">Detail</a></td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td class="text-center">
-                                                4
-                                            </td>
-                                            <td class="sorting_1">Input data</td>
-                                            <td class="align-middle">
-                                                <div class="progress" data-height="4" data-toggle="tooltip" title=""
-                                                     data-original-title="100%" style="height: 4px;">
-                                                    <div class="progress-bar bg-success" data-width="100%"
-                                                         style="width: 100%;"></div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-2.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Rizal Fakhri">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-5.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Isnap Kiswandi">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-4.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Yudi Nawawi">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-1.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Khaerul Anwar">
-                                            </td>
-                                            <td>2018-01-16</td>
-                                            <td>
-                                                <div class="badge badge-success">Completed</div>
-                                            </td>
-                                            <td><a href="#" class="btn btn-secondary">Detail</a></td>
-                                        </tr>
-                                        <tr role="row" class="odd">
-                                            <td class="text-center">
-                                                1
-                                            </td>
-                                            <td class="sorting_1">Create a mobile app</td>
-                                            <td class="align-middle">
-                                                <div class="progress" data-height="4" data-toggle="tooltip" title=""
-                                                     data-original-title="100%" style="height: 4px;">
-                                                    <div class="progress-bar bg-success" data-width="100%"
-                                                         style="width: 100%;"></div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-5.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Wildan Ahdian">
-                                            </td>
-                                            <td>2018-01-20</td>
-                                            <td>
-                                                <div class="badge badge-success">Completed</div>
-                                            </td>
-                                            <td><a href="#" class="btn btn-secondary">Detail</a></td>
-                                        </tr>
-                                        <tr role="row" class="even">
-                                            <td class="text-center">
-                                                3
-                                            </td>
-                                            <td class="sorting_1">Backup database</td>
-                                            <td class="align-middle">
-                                                <div class="progress" data-height="4" data-toggle="tooltip" title=""
-                                                     data-original-title="70%" style="height: 4px;">
-                                                    <div class="progress-bar bg-warning" data-width="70%"
-                                                         style="width: 70%;"></div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-1.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Rizal Fakhri">
-                                                <img alt="image"
-                                                     src="https://demo.getstisla.com/assets/img/avatar/avatar-2.png"
-                                                     class="rounded-circle" width="35" data-toggle="tooltip" title=""
-                                                     data-original-title="Hasan Basri">
-                                            </td>
-                                            <td>2018-01-29</td>
-                                            <td>
-                                                <div class="badge badge-warning">In Progress</div>
-                                            </td>
-                                            <td><a href="#" class="btn btn-secondary">Detail</a></td>
-                                        </tr>
+                                        @forelse($users as $user)
+                                            <tr>
+                                                <th scope="row">{{$user->id}}</th>
+                                                <td>{{$user->name}}</td>
+                                                <td>
+                                                    <div class="progress mb-3" data-height="5" style="height: 5px;">
+                                                        <div class="progress-bar" role="progressbar" data-width="25%"
+                                                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                             style="width: 25%;"></div>
+                                                    </div>
+                                                </td>
+                                                <td><img alt="image"
+                                                         src="https://demo.getstisla.com/assets/img/avatar/avatar-1.png"
+                                                         class="rounded-circle" width="35" data-toggle="tooltip"
+                                                         title=""
+                                                         data-original-title="Nur Alpiana">
+                                                    <img alt="image"
+                                                         src="https://demo.getstisla.com/assets/img/avatar/avatar-3.png"
+                                                         class="rounded-circle" width="35" data-toggle="tooltip"
+                                                         title=""
+                                                         data-original-title="Hariono Yusup">
+                                                    <img alt="image"
+                                                         src="https://demo.getstisla.com/assets/img/avatar/avatar-4.png"
+                                                         class="rounded-circle" width="35" data-toggle="tooltip"
+                                                         title=""
+                                                         data-original-title="Bagus Dwi Cahya"></td>
+                                                <td>
+                                                    <div class="badge badge-info">Todo</div>
+                                                </td>
+                                                <td>
+                                                   Date..
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-secondary">Detail</a>
+                                                </td>
+                                            </tr>
+                                        @empty
+                                        @endforelse
                                         </tbody>
                                     </table>
                                 </div>
