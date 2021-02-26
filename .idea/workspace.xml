@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ba5ac28-192a-4515-9710-24782fd97f68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/app/dashboard.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/app/table.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/skeleton.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/topnav.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/admin/pages/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/admin/pages/user/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +174,7 @@
       <workItem from="1614277071181" duration="30000" />
       <workItem from="1614277225474" duration="801000" />
       <workItem from="1614342982445" duration="268000" />
-      <workItem from="1614343251695" duration="719000" />
+      <workItem from="1614343251695" duration="2348000" />
     </task>
     <servers />
   </component>
@@ -193,6 +186,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="743" y="311" width="426" height="480" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1614343248951" />
+    <state x="543" y="299" width="826" height="504" key="IDE.errors.dialog" timestamp="1614344019536">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="543" y="299" width="826" height="504" key="IDE.errors.dialog/0.25.1920.1055@0.25.1920.1055" timestamp="1614344019536" />
     <state x="569" y="282" width="774" height="538" key="NewPhpClassDialog" timestamp="1614286669086">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
