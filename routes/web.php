@@ -16,18 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware'=> [],
     'prefix' => 'admin',
-    'namespace' => 'Admin',
     'as' => 'admin.'
 ], function(){
-    Route::get('/', function () {
-        return view('admin.app.dashboard');
-    });
+    Route::get('/', App\Http\Livewire\Admin\Dashboard\Index::class)->name('dashboard');
 
-    Route::get('/table', function () {
-        return view('admin.app.table');
-    });
+    Route::get('/users', App\Http\Livewire\Admin\User\Index::class)->name('users.index');
 });
-
 
 Route::get('/', function () {
     return view('welcome');
